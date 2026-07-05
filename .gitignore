@@ -1,6 +1,7 @@
 # Virtual environments
 venv/
 .env
+api.http
 .venv/
 ENV/
 media/

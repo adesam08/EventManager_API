@@ -1,4 +1,4 @@
-POST http://127.0.0.1:8000/register/organizer HTTP/1.1
+POST https://eventmanager-api-rxyf.onrender.com/register/organizer HTTP/1.1
 Content-Type: application/json
 
 {
@@ -6,12 +6,12 @@ Content-Type: application/json
     "first_name": "Sam",
     "last_name": "Dune",
     "password": "password123",
-    "comapny_name":"Samtech Production",
+    "company_name":"Samtech Production",
     "bio":"We grow together"
 }
 
 ###
-POST http://127.0.0.1:8000/api/token/ HTTP/1.1
+POST https://eventmanager-api-rxyf.onrender.com/api/token/ HTTP/1.1
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://127.0.0.1:8000/api/events/create HTTP/1.1
+POST https://eventmanager-api-rxyf.onrender.com/api/events/create HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgzMTA5NDExLCJpYXQiOjE3ODMxMDkxMTEsImp0aSI6IjM2NjFmN2VmMWFmNjQ0Yjc4OWZkMTE4ZmE3NmM4ZjRlIiwidXNlcl9pZCI6IjMifQ.GrQxbmoPzY3h_7bI_oz4BA3w_-7ND_HRvQnZRlkeLlE
 
@@ -33,7 +33,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiY
 }
 
 ###
-POST http://127.0.0.1:8000/api/events/1/tickets
+POST https://eventmanager-api-rxyf.onrender.com/api/events/1/tickets
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgzMTE0MjQ4LCJpYXQiOjE3ODMxMTM5NDgsImp0aSI6ImZmOTFiOTExYzZlMzQyMjBhNGM2ZDAwMmU2ZTYxNDFiIiwidXNlcl9pZCI6IjMifQ.9EMsXZPMj1g1OMi2U0BJMx8t92rRujIVozHww_F94Nk
 

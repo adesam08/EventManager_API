@@ -41,7 +41,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "eventmanager-api-rxyf.onrender.com",
+]
 
 
 # Application definition
@@ -146,6 +148,10 @@ SPECTACULAR_SETTINGS = {
     'SWAGGER_UI_FAVICON_HREF': 'SIDECAR',
     'REDOC_DIST': 'SIDECAR',
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://eventmanager-api-rxyf.onrender.com",
+]
 
 
 # Internationalization
