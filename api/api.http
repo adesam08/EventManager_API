@@ -22,7 +22,7 @@ Content-Type: application/json
 ###
 POST https://eventmanager-api-rxyf.onrender.com/api/events/create HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgzMTA5NDExLCJpYXQiOjE3ODMxMDkxMTEsImp0aSI6IjM2NjFmN2VmMWFmNjQ0Yjc4OWZkMTE4ZmE3NmM4ZjRlIiwidXNlcl9pZCI6IjMifQ.GrQxbmoPzY3h_7bI_oz4BA3w_-7ND_HRvQnZRlkeLlE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgzMjc0MTg0LCJpYXQiOjE3ODMyNzM4ODQsImp0aSI6ImFmZjUwNDQzNTM4ZTQwZDg4YjgwNmE4ZTY2Mjg0MjdiIiwidXNlcl9pZCI6IjEifQ.2zlXRAwYkYa78FCL_SeexLv7Uwdh9ZwDmPI5kTDmdn0
 
 {
     "title":"World Class Events",

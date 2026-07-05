@@ -1,7 +1,6 @@
 # Virtual environments
 venv/
 .env
-api.http
 .venv/
 ENV/
 media/
@@ -14,6 +13,8 @@ __pycache__/
 
 # IDE
 .vscode/
+
+api.http
 
 
 # OS
